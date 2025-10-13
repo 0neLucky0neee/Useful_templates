@@ -1,3 +1,6 @@
+#pragma once
+#include <Windows.h>
+
 // learn.microsoft.com/en-us/windows/win32/inputdev/about-keyboard-input
 void SendCustomKbInput(WORD wScan, DWORD dwUp) {
 	INPUT iInputs[0x1] = { NULL };
